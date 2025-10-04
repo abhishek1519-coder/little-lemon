@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">LittleLemonCapstone</string>
+    <string name="know_you">Let\'s get to know you</string>
+    <string name="f_name">First name</string>
+    <string name="l_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="pers_info">Personal information</string>
+    <string name="register">Register</string>
+    <string name="register_successful">Registration successful!</string>
+    <string name="register_unsuccessful">Registration unsuccessful. Please enter all data.</string>
+    <string name="profile">Profile</string>
+    <string name="logout">User Logged out</string>
+    <string name="log_me_out">Log out</string>
+
 </resources>

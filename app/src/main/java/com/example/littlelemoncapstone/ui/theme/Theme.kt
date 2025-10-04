@@ -10,6 +10,12 @@ import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.Pink40
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.Pink80
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.Purple80
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.PurpleGrey40
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.PurpleGrey80
+import com.example.littlelemoncapstone.ui.theme.LittleLemonColor.yellow
 
 private val DarkColorScheme = darkColorScheme(
     primary = Purple80,
@@ -18,7 +24,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
+    primary = yellow,
     secondary = PurpleGrey40,
     tertiary = Pink40
 
