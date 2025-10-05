@@ -13,6 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import androidx.room.Room
+import com.example.littlelemon.AppDatabase
 import com.example.littlelemoncapstone.ui.theme.LittleLemonCapstoneTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,6 +22,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+
             LittleLemonCapstoneTheme {
                 val navController = rememberNavController()
                 NavigationComposable(navController)

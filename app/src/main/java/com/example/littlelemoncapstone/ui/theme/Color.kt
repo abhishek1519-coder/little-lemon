@@ -3,6 +3,8 @@ package com.example.littlelemoncapstone.ui.theme
 import androidx.compose.ui.graphics.Color
 
 object LittleLemonColor {
+    val lightGray= Color(0xFFA4A1A1);
+    val darkGray= Color(0xFF3B3737);
     val white= Color(0xffffffff);
     val green = Color(0xFF495e57) // primary
     // primary variant
